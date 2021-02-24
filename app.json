@@ -1,9 +1,9 @@
 {
   "name": "TG AI USERBOT",
   "description": "Telegram AI UserBot",
+  
   "website": "https://github.com/jpeiterson",
   "repository": "https://github.com/jpeiterson/Chatbot-2",
-  ],
   "env": {
     "api_id": {
       "description": "Get this value from https://my.telegram.org",
