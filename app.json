@@ -1,0 +1,37 @@
+{
+  "name": "TG AI USERBOT",
+  "description": "Telegram AI UserBot",
+  ],
+  "website": "https://github.com/jpeiterson",
+  "repository": "https://github.com/jpeiterson/Chatbot-2",
+  "env": {
+    "api_id": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "api_hash": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "SESSION_NAME": {
+      "description": "Name of session if you're using session files",
+      "value": ""
+      "required": false	
+    },
+    "STRING_SESSION": {
+      "description": "Else run python3 string_session.py to generate session.",
+      "value": "",
+    },
+    "CF_API_KEY": {
+      "description": "Get your API key from https://coffeehouse.intellivoid.net/",
+      "value": ""
+    },
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+        "options": {
+          "version": "12"
+        }
+      }
+  ]
