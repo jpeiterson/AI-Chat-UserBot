@@ -16,7 +16,7 @@
     "SESSION_NAME": {
       "description": "Name of session if you're using session files",
       "value": ""
-      "required": false	
+      "required": "false"	
     },
     "STRING_SESSION": {
       "description": "Else run python3 string_session.py to generate session.",
